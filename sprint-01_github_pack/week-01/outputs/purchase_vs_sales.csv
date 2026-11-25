@@ -1,0 +1,31 @@
+product_id,units_sold,units_bought,bought_to_sold,product_name,category
+P024,39486,757049,19.17,Track Roller TR-60,Undercarriage
+P014,40574,764100,18.83,Transmission Assembly TA-800,Transmission
+P023,40276,758185,18.82,Idler Wheel IW-55,Undercarriage
+P005,40480,759066,18.75,Fuel Injector FI-220,Engine
+P002,40917,764701,18.69,Engine Oil Filter OF-90,Filters
+P017,40920,761754,18.62,Fan Belt FB-30,Belts
+P013,39927,740939,18.56,Seal Kit SK-15,Seals
+P025,41091,757080,18.42,Cabin Glass CG-20,Cabin
+P018,40752,748671,18.37,Wheel Rim WR-24,Undercarriage
+P012,41549,761229,18.32,Brake Pad BP-40,Brakes
+P022,41297,753909,18.26,Control Valve CV-75,Hydraulic
+P009,40547,736336,18.16,Starter Motor SM-700,Electrical
+P001,41304,749292,18.14,Hydraulic Pump HP-300,Hydraulic
+P004,40891,740161,18.1,Track Chain TC-45,Undercarriage
+P003,41712,754421,18.09,Air Filter AF-120,Filters
+P010,42292,764284,18.07,Turbocharger TB-900,Engine
+P026,40407,729339,18.05,Grease Cartridge GC-5,Lubricants
+P015,40815,734499,18.0,Engine Block EB-600,Engine
+P027,40870,734376,17.97,O-Ring Set OR-50,Seals
+P006,41843,751495,17.96,Alternator ALT-500,Electrical
+P011,42093,754640,17.93,Hydraulic Cylinder HC-200,Hydraulic
+P007,42156,755069,17.91,Hydraulic Hose HH-60,Hydraulic
+P021,41864,743914,17.77,Boom Cylinder BC-400,Hydraulic
+P020,40915,724414,17.71,Pivot Pin PP-12,Pins & Bushes
+P008,41059,726479,17.69,Bucket Tooth BT-10,Attachments
+P030,41595,733833,17.64,Fuel Pump FP-350,Engine
+P028,41292,725809,17.58,Light Assembly LA-18,Electrical
+P016,41770,733675,17.56,Radiator RD-250,Cooling
+P029,42702,745514,17.46,Pressure Sensor PS-90,Sensors
+P019,41543,722890,17.4,Swing Motor SWM-350,Hydraulic

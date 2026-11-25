@@ -1,0 +1,13 @@
+table,key,rows,duplicate_key_rows,date_from,date_to
+branches,branch_id,6,0,,
+customers,customer_id,500,0,,
+inventory_master,product_id + branch_id,180,0,,
+products,product_id,30,0,,
+suppliers,supplier_id,8,0,,
+sales_orders_header,so_id,20000,0,2019-01-01,2024-12-31
+sales_orders_lines,so_id + line_number,130402,0,,
+purchase_orders_header,po_id,24000,0,2019-01-01,2024-12-31
+purchase_orders_lines,po_id + line_number,155495,0,,
+invoices,invoice_id,18033,197,2019-01-03,2025-01-13
+payments,payment_id,19257,202,2019-01-09,2025-03-20
+stock_ledger,movement_id,237230,0,2019-01-01,2025-01-28
