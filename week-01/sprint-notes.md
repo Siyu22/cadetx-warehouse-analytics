@@ -7,6 +7,7 @@ Explore the full supply chain dataset, map table relationships, flag initial dat
 
 ## Sprint Backlog & Progress
 | Task ID| Notes |
+|---|---|
 | T1.1 | Load all 12 CSV files, generate summary stats, shape, dtypes, describe |
 | T1.2 | Build ERD and table join mapping |
 | T1.3 | First-pass data quality scan: nulls, duplicates, outliers, invalid dates |
