@@ -7,7 +7,6 @@ a data-driven warehouse intelligence capability.
 | Item | Detail |
 |---|---|
 | Duration | 3 months · 12 weekly sprints |
-| Team | 2 × Data Analyst · 1 × Data Scientist |
 | Cadence | Weekly Scrum (planning → build → check-in → submit → review) |
 | Delivery | GitHub submission every week + weekly team meeting |
 | Dataset | Heavy Suppliers / Warehouse / Inventory / Customer (12 CSV tables) |
@@ -65,13 +64,3 @@ This repository builds the analytical layer that answers five questions:
 - 22.96 bn revenue (2019–2024, delivered orders, excl. GST)
 - 281.3 bn inventory value across 180 SKU–warehouse combinations
 - Purchases run **18.1×** ahead of delivered sales — the root cause of stock build-up
-
-## Team
-
-| Role | Name | Sprint 1 owner |
-|---|---|---|
-| Data Analyst 1 | _[name]_ | Data profiling, quality audit |
-| Data Analyst 2 | _[name]_ | ERD, join validation, KPI framing |
-| Data Scientist | _[name]_ | Data dictionary, hypothesis design |
-
-_Scrum Master rotates weekly; the Scrum Master also carries a technical task._
