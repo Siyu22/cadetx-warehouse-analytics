@@ -1,6 +1,5 @@
 # Sprint 1 Notes | Heavy Supplier & Warehouse Analytics
 Date: Sep 30 – Oct 6, 2026
-Scrum Master: [Name]
 
 ## Sprint Goal
 Explore the full supply chain dataset, map table relationships, flag initial data quality issues, define draft business KPIs & analysis questions to guide the full 12-week project.
