@@ -2,68 +2,68 @@
 ```mermaid
 erDiagram
     BRANCHES {
-        branch_id PK
-        branch_name
-        location
+        int branch_id PK
+        string branch_name
+        string location
     }
     CUSTOMERS {
-        customer_id PK
-        customer_name
+        int customer_id PK
+        string customer_name
     }
     SUPPLIERS {
-        supplier_id PK
-        supplier_name
+        int supplier_id PK
+        string supplier_name
     }
     PRODUCTS {
-        product_id PK
-        product_name
-        category
+        int product_id PK
+        string product_name
+        string category
     }
     INVENTORY_MASTER {
-        inventory_id PK
-        product_id FK
-        branch_id FK
-        current_stock
-        reorder_point
-        max_stock
+        int inventory_id PK
+        int product_id FK
+        int branch_id FK
+        float current_stock
+        float reorder_point
+        float max_stock
     }
     STOCK_LEDGER {
-        ledger_id PK
-        product_id FK
-        branch_id FK
-        transaction_date
-        qty_change
-        transaction_type
+        int ledger_id PK
+        int product_id FK
+        int branch_id FK
+        date transaction_date
+        float qty_change
+        string transaction_type
     }
     SALES_ORDERS_HEADER {
-        sales_order_id PK
-        customer_id FK
-        order_date
+        int sales_order_id PK
+        int customer_id FK
+        date order_date
     }
     SALES_ORDERS_LINES {
-        sales_line_id PK
-        sales_order_id FK
-        product_id FK
-        quantity
+        int sales_line_id PK
+        int sales_order_id FK
+        int product_id FK
+        float quantity
     }
     PURCHASE_ORDERS_HEADER {
-        po_id PK
-        supplier_id FK
-        order_date
+        int po_id PK
+        int supplier_id FK
+        date order_date
     }
     PURCHASE_ORDERS_LINES {
-        po_line_id PK
-        po_id FK
-        product_id FK
-        quantity
+        int po_line_id PK
+        int po_id FK
+        int product_id FK
+        float quantity
     }
     INVOICES {
-        invoice_id PK
-        sales_order_id FK
+        int invoice_id PK
+        int sales_order_id FK
     }
     PAYMENTS {
-        payment_id PK
-        invoice_id FK
+        int payment_id PK
+        int invoice_id FK
     }
 
     BRANCHES ||--o{ INVENTORY_MASTER : "holds"
@@ -78,3 +78,4 @@ erDiagram
     PURCHASE_ORDERS_HEADER ||--o{ PURCHASE_ORDERS_LINES : "contains"
     SALES_ORDERS_HEADER ||--o{ INVOICES : "invoiced"
     INVOICES ||--o{ PAYMENTS : "paid"
+
